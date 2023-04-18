@@ -56,7 +56,7 @@ sudo pip3 install graphviz
 
 ## Run and visualizing the results
 
-To run the code, one can either use a configuration file or command parameters. If one wants to use the configuration file, please first configure it in `config/nyu.ymal` or `config/shrec.ymal`.
+To run the code, one can either use a configuration file or command parameters. If one wants to use the configuration file, please first configure it in `config/dataset name.ymal`.
 
 ### Training from scratch
 
