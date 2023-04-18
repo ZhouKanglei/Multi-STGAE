@@ -1,6 +1,6 @@
 # Multi-Task Spatial-Temporal Graph Auto-Encoder for Hand Motion Denoising
 
-This work (Multi-STGAE) extends [our conference paper](http://hubertshum.com/pbl_ismar2021hand.htm) presented at ISMAR 2021, which has been submitted to a journal. We plan to release the full code once it is accepted for publication. Currently, we provide the test code.
+This work (Multi-STGAE) extends [our conference paper](http://hubertshum.com/pbl_ismar2021hand.htm) presented at ISMAR 2021, which has been submitted to a journal. 
 
 ## Framework and Experiments
 
@@ -54,17 +54,43 @@ sudo pip3 install pydot
 sudo pip3 install graphviz
 ```
 
-## Run and visualization
+## Run and visualizing the results
 
-Run the test code with the following command:
+To run the code, one can either use a configuration file or command parameters. If one wants to use the configuration file, please first configure it in `config/nyu.ymal` or `config/shrec.ymal`.
+
+### Training from scratch
+
+To train from scratch, run the following command:
 
 ```bash
-python main.py --device 0 --vis True
+python main.py --phase train --dataset nyu --device 0 **args
+```
+
+One can see the meaning of parameters using the following command:
+
+```bash
+python main.py --help
+```
+
+### Testing with pre-trained weights
+
+To test the code with pre-trained weights, run the following command:
+
+```bash
+python main.py --phase test 
+```
+
+### Visualizing the results
+
+To visualize the results, use the following command:
+
+```bash
+python main.py --phase test --vis True
 ```
 
 ## Citation
 
-If you find our work useful, we kindly request that you cite our paper to acknowledge our efforts and contributions. Thank you!
+If one finds our work useful, we kindly request that you cite our paper to acknowledge our efforts and contributions. Thanks!
 
 ```latex
 @INPROCEEDINGS{stage2021,
