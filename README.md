@@ -8,6 +8,16 @@ We recommend readers to watch the supplementary video of Multi-STGAE to gain a b
 
 Resources: [Multi-STGAE video](https://bhpan.buaa.edu.cn:443/link/8E94EF7ECE16BA78C7FC0237AB208475) | [STGAE website](http://hubertshum.com/pbl_ismar2021hand.htm) 
 
+![](./imgs/overview.png)
+
+<center>
+    Framework overview of our proposed method Multi-STGAE: we utilize the prediction task to propose a multi-task framework for hand motion denoising. Through this framework, the denoised result is capable of preserving the temporal dynamics and the time delay problem can be greatly alleviated. In this way, it is possible to provide users with a satisfying experience during the interaction.
+</center>
+
+
+
+
+
 ## Datasets
 
 
