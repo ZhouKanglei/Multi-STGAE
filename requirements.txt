@@ -1,0 +1,17 @@
+einops==0.4.1
+keras_flops==0.1.2
+matplotlib==3.5.2
+numpy==1.19.5
+numpy==1.22.3
+numpy==1.18.5
+pandas==1.4.2
+PyYAML==6.0
+PyYAML==6.0
+scikit_learn==1.1.1
+scipy==1.8.1
+seaborn==0.11.2
+silence_tensorflow==1.2.0
+tensorflow==2.5.0
+tensorflow==2.3.1
+tensorflow_gpu==2.5.0
+tqdm==4.64.0

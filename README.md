@@ -11,18 +11,30 @@ Resources: [Multi-STGAE video](https://bhpan.buaa.edu.cn:443/link/8E94EF7ECE16BA
 ![](./imgs/overview.png)
 
 <center>
-    Framework overview of our proposed method Multi-STGAE: we utilize the prediction task to propose a multi-task framework for hand motion denoising. Through this framework, the denoised result is capable of preserving the temporal dynamics and the time delay problem can be greatly alleviated. In this way, it is possible to provide users with a satisfying experience during the interaction.
+Framework overview of our proposed method Multi-STGAE: we utilize the prediction task to propose a multi-task framework for hand motion denoising. Through this framework, the denoised result is capable of preserving the temporal dynamics and the time delay problem can be greatly alleviated. In this way, it is possible to provide users with a satisfying experience during the interaction.
 </center>
-
-
-
-
 
 ## Datasets
 
+Download the dataset from [BUAA cloud disk](https://bhpan.buaa.edu.cn/link/5B608DC9CDF60E8DEC78E062B7A6B2A0) and save it in the `./data/dataset name` directory.
 
+## Installation
 
-## Environments
+To get started, you will need to first clone this project and then install the required dependencies.
+
+### Basic packages
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install all the required packages listed in the `requirements.txt` file.
+
+### Visualization dependencies
+
+We also provide a visualization tool for generating video files of the results. To use this tool, the following dependencies need to be installed:
 
 - `LaTeX` tool
 
