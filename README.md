@@ -54,6 +54,14 @@ sudo pip3 install pydot
 sudo pip3 install graphviz
 ```
 
+## Run and visualization
+
+Run the test code with the following command:
+
+```bash
+python main.py --device 0 --vis True
+```
+
 ## Citation
 
 If you find our work useful, we kindly request that you cite our paper to acknowledge our efforts and contributions. Thank you!

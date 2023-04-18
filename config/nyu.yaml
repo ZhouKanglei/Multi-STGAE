@@ -1,0 +1,45 @@
+phase: test
+opt_weight_file: ./weights/nyu/cp.ckpt
+
+# graph
+graph: config.graph.Graph
+graph_args:
+  layout: nyu
+  strategy: spatial
+
+# model
+model: models.stgae.stgae
+model_args:
+  filters: 3
+  kernel_size: 9
+  channels: [32, 64, 128]
+
+# opts
+max_epoch: 100
+
+optimizer: adam
+base_lr: 0.01
+lr_factor: 0.90
+lr_decay_epochs: [75, 90]
+min_lr: 0.00001
+
+deno_weight: 1 # denoising loss weight
+pred_weight: 0.05 # prediction loss weight
+
+# data
+data_loader: datasets.nyu.nyu_dataset
+t_size: 36
+t_pred_size: 5
+validation_rate: 0.15
+sigma_o: 0.1
+sigma_s: 0.1
+beta: 50
+noise_level: 6
+noise_cycle: 5
+
+data_path: ./data/nyu/jnt_split.npz
+bs_train: 64
+bs_test: 64
+
+# device
+device: [3]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="zkl@10.134.171.105:22 password" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="zkl@10.134.171.105:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/zkl/Documents/Codes/Multi-STGAE" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
