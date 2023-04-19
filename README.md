@@ -88,23 +88,6 @@ To visualize the results, use the following command:
 python main.py --phase test --vis True
 ```
 
-## Citation
-
-If one finds our work useful, we kindly request that you cite our paper to acknowledge our efforts and contributions. Thanks!
-
-```latex
-@INPROCEEDINGS{stage2021,
-  author={Zhou, Kanglei and Cheng, Zhiyuan and Shum, Hubert P. H. and Li, Frederick W. B. and Liang, Xiaohui},
-  booktitle={2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)}, 
-  title={STGAE: Spatial-Temporal Graph Auto-Encoder for Hand Motion Denoising}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={41-49},
-  doi={10.1109/ISMAR52148.2021.00018}
-}
-```
-
 ## Contact
 
 Feel free to contact me via `zhoukanglei[at]qq.com`.
