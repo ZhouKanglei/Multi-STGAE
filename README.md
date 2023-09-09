@@ -16,7 +16,7 @@ Framework overview of our proposed method Multi-STGAE: we utilize the prediction
 
 ## Datasets
 
-Download the dataset from [BUAA cloud disk](https://bhpan.buaa.edu.cn/link/AA99F3E5F12EC34D13AC69BB1565C44630) and save it in the `data/dataset name` directory.
+Download the dataset from [BUAA cloud disk](https://bhpan.buaa.edu.cn/link/AA99F3E5F12EC34D13AC69BB1565C44630) and save it in the `data/dataset name` directory. Should you encounter any issues accessing the link or require further details, please do not hesitate to contact us directly.
 
 ## Installation
 
