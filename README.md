@@ -6,7 +6,7 @@ This work (Multi-STGAE) extends [our conference paper](http://hubertshum.com/pbl
 
 We recommend readers to watch the supplementary video of Multi-STGAE to gain a better understanding of the framework and to view the qualitative results.
 
-Resources: [Multi-STGAE video](https://bhpan.buaa.edu.cn:443/link/8E94EF7ECE16BA78C7FC0237AB208475) | [STGAE website](http://hubertshum.com/pbl_ismar2021hand.htm) 
+Resources: [Multi-STGAE video](https://bhpan.buaa.edu.cn/link/AA88BD14D1BA6B4889BE49B2567EE00F87) | [STGAE website](http://hubertshum.com/pbl_ismar2021hand.htm) 
 
 ![](./imgs/overview.png)
 
@@ -16,7 +16,7 @@ Framework overview of our proposed method Multi-STGAE: we utilize the prediction
 
 ## Datasets
 
-Download the dataset from [BUAA cloud disk](https://bhpan.buaa.edu.cn/link/5B608DC9CDF60E8DEC78E062B7A6B2A0) and save it in the `data/dataset name` directory.
+Download the dataset from [BUAA cloud disk](https://bhpan.buaa.edu.cn/link/AA99F3E5F12EC34D13AC69BB1565C44630) and save it in the `data/dataset name` directory.
 
 ## Installation
 
