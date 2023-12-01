@@ -1,12 +1,12 @@
 # Multi-Task Spatial-Temporal Graph Auto-Encoder for Hand Motion Denoising
 
-This work (Multi-STGAE) extends [our conference paper](http://hubertshum.com/pbl_ismar2021hand.htm) presented at ISMAR 2021, which has been submitted to a journal. 
+This work (Multi-STGAE) extends [our conference paper](http://hubertshum.com/pbl_ismar2021hand.htm) presented at ISMAR 2021, which has been published by [TVCG](https://ieeexplore.ieee.org/document/10336543). 
 
-## Framework and Experiments
+## Framework
 
 We recommend readers to watch the supplementary video of Multi-STGAE to gain a better understanding of the framework and to view the qualitative results.
 
-Resources: [Multi-STGAE video](https://bhpan.buaa.edu.cn/link/AA88BD14D1BA6B4889BE49B2567EE00F87) | [STGAE website](http://hubertshum.com/pbl_ismar2021hand.htm) 
+Resources: [Multi-STGAE video](https://www.bilibili.com/video/BV1f94y177HD/?spm_id_from=333.999.0.0&vd_source=0e299b196f2f329e28d10306f15fc023) |[Multi-STGAE webpage](http://hubertshum.com/pbl_tvcg2024hand.htm) | [STGAE webpage](http://hubertshum.com/pbl_ismar2021hand.htm) 
 
 ![](./imgs/overview.png)
 
