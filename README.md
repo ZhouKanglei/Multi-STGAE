@@ -6,7 +6,7 @@ This work (Multi-STGAE) extends [our conference paper](http://hubertshum.com/pbl
 
 We recommend readers to watch the supplementary video of Multi-STGAE to gain a better understanding of the framework and to view the qualitative results.
 
-Resources: [Multi-STGAE video](https://www.bilibili.com/video/BV1f94y177HD/?spm_id_from=333.999.0.0&vd_source=0e299b196f2f329e28d10306f15fc023) |[Multi-STGAE webpage](http://hubertshum.com/pbl_tvcg2024hand.htm) | [STGAE webpage](http://hubertshum.com/pbl_ismar2021hand.htm) 
+Resources: [Multi-STGAE video](https://www.bilibili.com/video/BV1f94y177HD/?spm_id_from=333.999.0.0&vd_source=0e299b196f2f329e28d10306f15fc023) | [Multi-STGAE webpage](http://hubertshum.com/pbl_tvcg2024hand.htm) | [STGAE webpage](http://hubertshum.com/pbl_ismar2021hand.htm) 
 
 ![](./imgs/overview.png)
 
